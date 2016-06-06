@@ -14,6 +14,7 @@
 		5C96252F1D02D269007C6C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C96252D1D02D269007C6C5B /* LaunchScreen.storyboard */; };
 		5C96253A1D02D269007C6C5B /* TEXTFIELDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9625391D02D269007C6C5B /* TEXTFIELDTests.swift */; };
 		5C9625451D02D269007C6C5B /* TEXTFIELDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9625441D02D269007C6C5B /* TEXTFIELDUITests.swift */; };
+		5C9625531D02D44F007C6C5B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9625521D02D44F007C6C5B /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5C9625401D02D269007C6C5B /* TEXTFIELDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEXTFIELDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9625441D02D269007C6C5B /* TEXTFIELDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEXTFIELDUITests.swift; sourceTree = "<group>"; };
 		5C9625461D02D269007C6C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C9625521D02D44F007C6C5B /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				5C9625241D02D269007C6C5B /* AppDelegate.swift */,
 				5C9625261D02D269007C6C5B /* ViewController.swift */,
 				5C9625281D02D269007C6C5B /* Main.storyboard */,
+				5C9625521D02D44F007C6C5B /* ResultViewController.swift */,
 				5C96252B1D02D269007C6C5B /* Assets.xcassets */,
 				5C96252D1D02D269007C6C5B /* LaunchScreen.storyboard */,
 				5C9625301D02D269007C6C5B /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				5C9625271D02D269007C6C5B /* ViewController.swift in Sources */,
 				5C9625251D02D269007C6C5B /* AppDelegate.swift in Sources */,
+				5C9625531D02D44F007C6C5B /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				5C96254B1D02D269007C6C5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C96254C1D02D269007C6C5B /* Build configuration list for PBXNativeTarget "TEXTFIELDTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				5C96254E1D02D269007C6C5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C96254F1D02D269007C6C5B /* Build configuration list for PBXNativeTarget "TEXTFIELDUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				5C9625511D02D269007C6C5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
